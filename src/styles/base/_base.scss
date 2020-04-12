@@ -5,9 +5,8 @@ html{
 }
 
 body {
-    background: $dark-blue;
     font-family: Helvetica, Arial,  sans-serif;
-    font-size: $m-size;
+    font-size: $l-size;
 
 }
 
@@ -17,4 +16,61 @@ button{
 
 button:disabled {
     cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+}
+
+.navStyle{
+    font-size: 20px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+
+.imageStyle{
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+}
+
+.contentStyle{
+    padding-top: 30px;
+    font-size: 20px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.teamStyle{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    display: flex;
+}
+li {list-style-type: none;}
+
+.borderUL {
+    border-color:black;
+    border-style: double;
+    padding-right: 10px;
+}
+.borderULL {
+    padding-left: 200px;
+}
+.imageTeam{
+    height: 100px;
+    width: 200px;
+    
+    
+}
+.imageTeamSize{
+    padding-top: 100px;
+    margin-left: 500px;
 }
