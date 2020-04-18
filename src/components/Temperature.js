@@ -30,7 +30,7 @@ class Temperature extends Component {
             <div className="contentStyle">
                 {
                     posts.length ?
-                    posts.map(post => <div key={post.coreInfo.deviceID}> Temperature: {post.result|0}°F </div>) :
+                    posts.map(post => <div key={post.coreInfo.deviceID}> Temperature: {post.result|2}°F </div>) :
                     null
                 }
             </div>

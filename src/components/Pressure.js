@@ -30,7 +30,7 @@ class Pressure extends Component {
             <div className="contentStyle">
                 {
                     posts.length ?
-                    posts.map(post => <div key={post.coreInfo.deviceID}>Pressure: {post.result|0} PSI</div>) :
+                    posts.map(post => <div key={post.coreInfo.deviceID}>Pressure: {post.result|2} PSI</div>) :
                     null
                 }
             </div>
