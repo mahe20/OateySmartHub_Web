@@ -12,7 +12,7 @@ class Pressure extends Component {
     
 
     componentDidMount(){
-        axios.get('https://api.particle.io/v1/devices/340039000a47373336323230/Pressure(PSI)?access_token=01f0224143a1b26882892785977f193e1b309e27')
+        axios.get('https://api.particle.io/v1/devices/3a0033001747373335333438/Pressure(PSI)?access_token=01f0224143a1b26882892785977f193e1b309e27')
         
         .then(response => {
             console.log(response)
